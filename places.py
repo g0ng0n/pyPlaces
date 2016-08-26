@@ -11,10 +11,16 @@ app = Flask(__name__)
 # API END POINTS
 @app.route('/api/v1/places')
 def showAllPlaceJSON():
-    # We get all the places from the json PLaces
-    places = ""
-    if places:
-        return jsonify(Places=places)
+    # We get all the places from the json
+
+    with open('places.json') as json_data:
+        d = json.load(json_data)
+        print(d)
+
+
+    print (d)
+    if d:
+            return jsonify(d)
     else:
         response = make_response(json.dumps('Places Not Found.'), 404)
         response.headers['Content-Type'] = 'application/json'
