@@ -10,9 +10,6 @@
  * Prerequisities: python2.7 and python-pip in order to install libraries from python
     * Python libraries
         - python-flask
-        - psycopg2
-        - python-sqlalchemy
-        - oauth2client
         - requests
         - httplib2
         - flask-httpauth
@@ -30,11 +27,11 @@
 
 ## JSON APIS URLS
 
-    ### GET ALL THE CATEGORIES
+    ### GET ALL THE cOUNTRIES
         - http://localhost:5000/api/v1/countries
-    ### GET THE DETAILS INFORMATION OF A CATEGORY
-        - http://localhost:5000/api/v1/countries/[CATEGORY_ID]
     ### GET ALL THE PLACES
         - http://localhost:5000/api/v1/places
     ### GET THE DETAILS INFORMATION OF A PLACE
         - http://localhost:5000/api/v1/places/[ITEM_ID]
+    ### GET ALL THE TYPES OF PLACES
+        - http://localhost:5000/api/v1/types

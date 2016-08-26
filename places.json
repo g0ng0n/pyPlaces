@@ -1,0 +1,67 @@
+{
+	places: [
+		{
+		    id: 1,
+			name: "Demain",
+			description: "Coctail Bar",
+			type: "nightlife",
+			direction: "Lange Hezelstraat 58a",
+			latitude: "51.8483192",
+			longitude: "5.8590215"
+		},
+		{
+		    id: 2,
+			name: "Prikkels",
+			description: "Ice Cream Shop and Café",
+			type: "food",
+			direction: "Houtstraat 75, 6511 JM Nijmegen",
+			latitude: "51.8475148",
+			longitude: "5.8611735"
+		},
+		{
+		    id: 3,
+			name: "Cafe De Mug",
+			description: "Bar",
+			type: "nightlife",
+			direction: "Koningstraat 36, 6511 LB Nijmegen, Netherlands",
+			latitude: "51.8455191",
+			longitude: "5.8640745,20z"
+		},
+		{
+		    id: 4,
+			name: "Café Samson",
+			description: "Pub and Bar",
+			type: "nightlife",
+			direction: "Houtstraat 4, 6511 JN Nijmegen",
+			latitude: "51.8464797",
+			longitude: "5.8622892,20z"
+		},
+		{
+		    id: 5,
+			name: "Café In de blaauwe hand",
+			description: "Bar, Tapas Restaurant, and Pub",
+			type: "nightlife",
+			direction: "Achter de Hoofdwacht 3, 6511 VW Nijmegen",
+			latitude: "51.8479005",
+			longitude: "5.862876,19z"
+		},
+		{
+		    id: 6,
+			name: "Bairro Alto",
+			description: "Coffee Shop and Café",
+			type: "food",
+			direction: "Kannenmarkt 6, 6511 KC Nijmegen",
+			latitude: "51.8478486",
+			longitude: "5.8637741,19"
+		},
+		{
+		    id: 7,
+			name: "Kronenburgerpark",
+			description: "Park",
+			type: "fun",
+			direction: "Kronenburgersingel (Parkweg), 6511 Nijmegen",
+			latitude: "51.8463699",
+			longitude: "5.8568249,17"
+		}
+	]
+}
