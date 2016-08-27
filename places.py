@@ -20,7 +20,7 @@ def showAllPlaceJSON():
 
     print (d)
     if d:
-            return jsonify(d)
+        return jsonify(d)
     else:
         response = make_response(json.dumps('Places Not Found.'), 404)
         response.headers['Content-Type'] = 'application/json'

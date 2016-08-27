@@ -1,0 +1,10 @@
+runtime: python27
+api_version: 1
+threadsafe: true
+
+- url: /.*
+  script: pyplaces.app
+
+libraries:
+- name: flask
+  version: latest
